@@ -247,6 +247,32 @@ pre {
 	border-top:none;
 }
 
+.navbar-header {
+	position: relative;
+}
+
+.navbar-brand {
+	position: absolute;
+	left: 0;
+	top: 14px;
+
+	padding: 14px !important;
+	background-image: url(../images/ceosim_v.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100px;
+	width: 100px;
+}
+
+@media (max-width: 767px) {
+	.navbar-brand {
+		background-image: url(../images/ceosim_h.png);
+		width: 157px;
+    	height: 43px;
+	}
+}
+
 /*	Form
 	==================================================*/
 label {
