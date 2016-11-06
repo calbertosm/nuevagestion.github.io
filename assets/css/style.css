@@ -255,14 +255,13 @@ pre {
 	position: absolute;
 	left: 0;
 	top: 14px;
-
 	padding: 14px !important;
 	background-image: url(../images/ceosim_v.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	height: 100px;
-	width: 100px;
+	height: 59px;
+	width: 79px;
 }
 
 @media (max-width: 767px) {
