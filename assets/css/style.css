@@ -32,12 +32,14 @@ font-family: 'Lato', sans-serif;
 	}
 }
 
+/* Estilo Nuevo 06-11-2016 */
 a{
 	color:#e27936;
 }
 a:focus, a:hover{
 	color:#f6df66;
 }
+
 /*	Form
 	==================================================*/
 label {
