@@ -402,7 +402,9 @@ label {
 }
 .navbar-inverse {
 	background-color: rgba(255, 255, 255, .9);
-	
+	background-position:right bottom;
+	background-repeat:no-repeat;
+	background-image:url(../images/header.png);
 	border: none;
 }
 .navbar-right button {
