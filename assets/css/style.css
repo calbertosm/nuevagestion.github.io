@@ -469,7 +469,11 @@ fieldset[disabled] .form-control:focus {
 /*	Features
 	==================================================*/
 
-#features .img-circle {
+#features .page-header {
+	margin-bottom: 2em;
+}
+
+#features .img-icon {
 	width: 140px;
 	height: 140px;
 }
