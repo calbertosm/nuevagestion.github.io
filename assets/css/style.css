@@ -482,7 +482,7 @@ fieldset[disabled] .form-control:focus {
 	==================================================*/
 
 #features {
-	margin-bottom: 8em;
+	margin-bottom: 0;
 }
 
 #features .page-header {
@@ -494,6 +494,9 @@ fieldset[disabled] .form-control:focus {
 	height: 140px;
 }
 
+#features .row > div {
+	margin-bottom: 3em;
+}
 
 /*	Social
 	==================================================*/
@@ -630,6 +633,13 @@ footer .nav {
 	}
 	.faq-block {
 		margin: 0 40px;
+	}
+
+	#boton .btn-lg {
+		height: auto;
+		font-size: 22px;
+		display: inline-block;
+		margin-bottom: 1em;
 	}
 }
 
