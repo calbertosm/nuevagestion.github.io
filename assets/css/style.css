@@ -447,6 +447,18 @@ fieldset[disabled] .form-control:focus {
 	width: 40px;
 }
 
+/*	Botón CEO
+	==================================================*/
+
+#boton {
+	background-color: #742628;
+	color: #FFF;
+}
+
+#boton .btn-lg {
+	font-size: 32px;
+    padding: 16px 24px;
+}
 
 /*	Newsletter
 	==================================================*/
