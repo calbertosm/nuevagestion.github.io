@@ -481,6 +481,10 @@ fieldset[disabled] .form-control:focus {
 /*	Features
 	==================================================*/
 
+#features {
+	margin-bottom: 8em;
+}
+
 #features .page-header {
 	margin-bottom: 2em;
 }
