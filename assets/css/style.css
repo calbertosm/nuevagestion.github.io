@@ -1,10 +1,10 @@
 body{
 font-family: 'Montserrat', sans-serif !important;
 }
-enfasis{
+.enfasis{
 color:#ff7128;
 }
-titulo {
+.titulo {
 color:#8a2223;
 }
 a {
