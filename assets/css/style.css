@@ -16,31 +16,6 @@ a:hover {
 	color: #f6df66;
 }
 
-/* Icons App
-	==================================================*/
-.icons_app {
-	margin-bottom: 30px;
-}
-
-.icon_app {
-	display: inline-block;
-	margin: 5px;
-	max-height: 80px;
-}
-
-.icons_prox {
-
-	display: inline-block;
-	padding: 10px;
-	margin-bottom: 5px;
-	background-color: rgba(156,40,36,.95);
-	color: #FFF;
-	border-radius: 6px;
-}
-
-.icons_prox h3 {
-	margin: 0;
-}
 
 /*	Section
 	==================================================*/
