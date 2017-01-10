@@ -1,12 +1,15 @@
 body{
-font-family: 'Montserrat', sans-serif !important;
+	font-family: 'Montserrat', sans-serif !important;
 }
+
 .enfasis{
-color:#ff7128;
+	color:#ff7128;
 }
+
 .titulo {
-color:#8a2223;
+	color:#8a2223;
 }
+
 a {
 	color: #e27936;
 }
@@ -14,6 +17,17 @@ a {
 a:focus,
 a:hover {
 	color: #f6df66;
+}
+
+.section_principal .t_principal {
+	font-size: 50px;
+	margin: 40px 0;
+	text-align: center;
+}
+
+.section_principal .vcenter {
+	padding-top: 25px;
+	text-align: justify;
 }
 
 /* Icons App
@@ -24,8 +38,8 @@ a:hover {
 
 .icon_app {
 	display: inline-block;
-	margin: 5px;
-	max-height: 80px;
+	margin: 5px 0;
+	max-height: 60px;
 }
 
 .icons_prox {
@@ -570,6 +584,16 @@ footer .nav {
 	header .container {
 		padding: 0 3em;
 	}
+	.section_principal .t_principal {
+		font-size: 36px;
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+	.section_principal .vcenter {
+		text-align: center;
+		padding-top: 0px;
+	}
+	
 }
 
 @media (max-width: 767px) {
