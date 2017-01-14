@@ -19,17 +19,6 @@ a:hover {
 	color: #f6df66;
 }
 
-.section_principal .t_principal {
-	font-size: 50px;
-	margin: 40px 0;
-	text-align: center;
-}
-
-.section_principal .vcenter {
-	padding-top: 25px;
-	text-align: justify;
-}
-
 /* Icons App
 	==================================================*/
 .icons_app {
@@ -54,6 +43,24 @@ a:hover {
 
 .icons_prox h3 {
 	margin: 0;
+}
+
+/*	Button CEOsim
+	==================================================*/
+.btn_ceosim_primary {
+	padding: 10px 20px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: #FFF;
+	background-color: #9c2823;
+	border-radius: 10px;
+}
+
+.btn_ceosim_primary:hover,
+.btn_ceosim_primary:focus {
+	color: #FFF;
+	background-color: #680e0a;
+
 }
 
 /*	Section
@@ -299,6 +306,28 @@ fieldset[disabled] .form-control:focus {
 
 .header-button {
 	margin-left: 15px;
+}
+
+
+/*	Incio
+	==================================================*/
+
+#inicio {
+	padding-bottom: 50px;
+}
+
+#inicio p.lead {
+	font-size: 18px;
+}
+
+#inicio .t_principal {
+	font-size: 40px;
+	margin: 20px 0;
+	text-align: center;
+}
+
+#inicio .vcenter {
+	padding-top: 25px;
 }
 
 
@@ -567,6 +596,19 @@ footer .nav {
 /*	Responsive
 	==================================================*/
 
+@media (max-width: 1199px) {
+	#inicio .vcenter,
+	#inicio .vcenter .titulo {
+		padding-top: 0;
+		margin-top: 0;
+	}
+
+	#inicio .vcenter p {
+		font-size: 15px;
+	}
+}
+
+
 @media (max-width: 991px) {
 	.service-block {
 		margin-bottom: 30px;
@@ -584,14 +626,13 @@ footer .nav {
 	header .container {
 		padding: 0 3em;
 	}
-	.section_principal .t_principal {
+	#inicio .t_principal {
 		font-size: 36px;
 		margin-top: 30px;
 		margin-bottom: 10px;
 	}
-	.section_principal .vcenter {
+	#inicio .vcenter {
 		text-align: center;
-		padding-top: 0px;
 	}
 	
 }
